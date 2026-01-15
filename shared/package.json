@@ -1,0 +1,29 @@
+{
+  "name": "@truthchain/shared",
+  "version": "1.0.0",
+  "description": "Shared models and services for TruthChain API (Mainnet & Testnet)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "truthchain",
+    "blockchain",
+    "ipfs",
+    "mongodb"
+  ],
+  "author": "TruthChain Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "form-data": "^4.0.4",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "typescript": "^5.0.0"
+  },
+  "type": "commonjs"
+}

@@ -1,0 +1,33 @@
+{
+    "scripts": {
+        "dev": "tsx src/app.ts",
+        "build": "tsc",
+        "start": "node dist/src/app.js"
+    },
+    "dependencies": {
+        "@stacks/encryption": "^7.3.1",
+        "@stacks/transactions": "^7.2.0",
+        "@types/uuid": "^10.0.0",
+        "axios": "^1.13.2",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "form-data": "^4.0.4",
+        "helmet": "^8.1.0",
+        "mongoose": "^8.19.3",
+        "morgan": "^1.10.1",
+        "uuid": "^13.0.0",
+        "web3.storage": "^4.5.5"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.3",
+        "@types/helmet": "^0.0.48",
+        "@types/morgan": "^1.9.10",
+        "@types/node": "^24.5.2",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "tsx": "^4.20.6",
+        "typescript": "^5.9.3"
+    }
+}

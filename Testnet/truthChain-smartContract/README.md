@@ -1,0 +1,1 @@
+https://explorer.hiro.so/txid/0x6057bdff7d89b3101f955e4fe27025c95bcafd5c63f76828368c1061854eda4d?chain=testnet

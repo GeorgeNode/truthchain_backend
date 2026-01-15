@@ -1,0 +1,18 @@
+---
+id: 0
+name: TruthChain V3 Mainnet Deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: truthchain_v3
+            expected-sender: SPVQ61FEWR6M4HVAT3BNE07D4BNW6A1C2ACCNQ6F
+            cost: 880350
+            path: contracts/truthchain_v3.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.3"
