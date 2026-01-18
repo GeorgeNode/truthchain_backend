@@ -61,10 +61,10 @@ export class RegistrationController {
         });
       }
 
-      if (tweetContent.length > 280) {
+      if (tweetContent.length > 4000) {
         return res.status(400).json({
           success: false,
-          message: 'Tweet content exceeds 280 characters',
+          message: 'Tweet content exceeds 4000 characters',
           error: 'Content too long'
         });
       }
@@ -228,10 +228,10 @@ export class RegistrationController {
         });
       }
 
-      if (tweetContent.length > 280) {
+      if (tweetContent.length > 4000) {
         return res.status(400).json({
           success: false,
-          message: 'Tweet content exceeds 280 characters',
+          message: 'Tweet content exceeds 4000 characters',
           error: 'Content too long'
         });
       }
